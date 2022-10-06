@@ -1,0 +1,317 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* global css for title */
+.title{
+    width: 100%;
+    padding: 0px 0px 40px;
+}
+.title h5{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #008ed6;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px;
+}
+.title h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #000;
+    margin: 0px 0px 5px;
+}
+.header-section{
+    width: 100%;
+    background: url("../img/banner.png") center top no-repeat;
+    background-size: cover;
+}
+.menu{
+    width: 100%;
+}
+.menu .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 20px;
+}
+.menu .navbar-nav .nav-item .nav-link:hover{
+    background: url("../img/divider.png") center bottom no-repeat;
+    background-size: auto;
+}
+.menu .navbar-nav .nav-item .nav-link:focus{
+    background: url("../img/divider.png") center bottom no-repeat;
+    background-size: auto;
+}
+.menu .navbar-nav .nav-link .active{
+    color: #008ed6;
+    background: url("../img/divider.png") center bottom no-repeat;
+    background-size: auto;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;    
+}
+.banner .banner-inner{
+   width: 100%;
+   padding: 30px 0px;
+}
+.banner .banner-inner h5{
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #008ed6;
+  letter-spacing: 1px;
+  margin: 0px 0px 15px;
+}
+.banner .banner-inner h1{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0px 0px 15px;
+    
+}
+.banner .banner-inner p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #999999;
+    margin: 0px 0px 15px;  
+}
+.inner-btn{
+    width: 100%;
+    padding: 50px 0px 0px;
+}
+.inner-btn .btn-primary{
+    padding: 15px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    border: 1px solid #008ed6;
+    background: #008ed6;
+    border-radius: 2px;
+    margin: 0px 20px 0px 0px;
+    transition: 1s;
+}
+.inner-btn .btn-primary:hover{
+    color: #008ed6;
+    border: 1px solid #008ed6;
+    background: transparent;
+
+}
+.inner-btn .btn-primary:focus{
+    color: #008ed6;
+    border: 1px solid #008ed6;
+    background: transparent;
+
+}
+.inner-btn .btn-info{
+    padding: 15px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    border: 1px solid #999;
+    background: transparent;
+    border-radius: 2px;
+}
+.inner-btn .btn-info:hover{
+    color: #fff;
+    border: 1px solid #008ed6;
+    background: #008ed6;
+
+}
+.inner-btn .btn-info:focus{
+    color: #fff;
+    border: 1px solid #008ed6;
+    background: #008ed6;
+
+}
+.feature{
+    width: 100%;
+    padding: 40px 0px;
+
+}
+.feature .title{
+    text-align: center;
+}
+.inner-feature{
+    width: 100%;
+    padding: 30px 45px;
+    text-align: center;
+}
+.inner-feature .icon-box{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0px auto 2px;
+    border: 1px solid #eee;
+    border-radius: 100%;
+}
+.inner-feature h4{
+  font-size: 22px;
+  line-height: 32px;
+  color: #000;
+}
+.inner-feature p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+.about-long{
+    width: 100%;
+    padding: 80px 0px;
+    border-top: 1px solid #eee;
+}
+.about-long .title{
+    width: 100%;
+    padding: 0px 0px 20px;
+    margin: 45px 0px 0px;
+}
+.about-long .title h1{
+    font-size: 48px;
+    line-height: 58px;
+}
+.about-long p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+}
+.about-long ul{
+    width: 100%;
+    display: block;
+    padding: 25px 0px 0px;
+    margin: 0px;
+
+}
+.about-long ul li{
+    list-style: none;
+    display: block;
+    margin: 0px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.about-long ul li img{
+    width: 13px;
+    height: 15px;
+    margin: 0px 10px 0px 0px;
+
+}
+.about-short{
+    width: 100%;
+    padding: 80px 0px;
+    background: #f2f2f2;
+}
+.about-short .title{
+    width: 100%;
+    padding: 0px 0px 20px;
+    margin: 90px 0px 0px;
+}
+.about-short .title h1{
+    font-size: 38px;
+    line-height: 48px;
+}
+.about-short p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+}
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../img/Testimonials.png") center top no-repeat;
+    background-size: cover;
+}
+.testimonial .title{
+    text-align: center;
+}
+.testimonial .title h1{
+    color: #fff;
+}
+.testimonial .owl-theme{
+   width: 100%;
+   padding: 40px 0px 20px;
+}
+.testimonial .owl-theme .item h4{
+    font-size: 26px;
+    line-height: 36px;
+    font-style: italic;
+    font-weight: 600;
+    color: #fff;
+    margin: 0px 0px 30px;
+}
+.testimonial .owl-theme .item img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+.testimonial .owl-theme .item p{
+    font-size: 14px;
+    color: #fff;
+    margin: 20px 0px 5px;
+}
+.testimonial .owl-theme .item h6{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;   
+}
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 85px;
+
+}
+.contact{
+    width: 100%;
+    padding: 80px 0px;
+
+}
+.contact .title{
+    text-align: center;
+}
+.inner-contact{
+    width: 100%;
+    padding: 10px 52px 5pxpx;
+    text-align: center;
+}
+.inner-contact .icon-box{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0px auto 10px;
+    border: 1px solid #eee;
+    border-radius: 100%;
+}
+.inner-contact h4{
+  font-size: 22px;
+  line-height: 32px;
+  color: #000;
+}
+.inner-contact h5{
+    font-size: 22px;
+    line-height: 32px;
+    color: #000;
+  }
+.inner-feature p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
